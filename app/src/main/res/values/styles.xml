@@ -1,11 +1,77 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+    <!--heading start-->
+    <style name="heading" parent="android:TextAppearance">
+        <item name="android:textColor">@color/black_72</item>
+        <item name="android:fontFamily">@font/ebrima_bold</item>
+    </style>
+
+    <style name="heading.1" parent="heading">
+        <item name="android:textSize">46sp</item>
+    </style>
+
+    <style name="heading.2" parent="heading">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <style name="heading.3" parent="heading">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="heading.4" parent="heading">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="heading.5" parent="heading">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="heading.6" parent="heading">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--heading end-->
+
+    <!--body start-->
+    <style name="body" parent="android:TextAppearance">
+        <item name="android:textColor">@color/black_72</item>
+        <item name="android:fontFamily">@font/ebrima</item>
+    </style>
+
+    <style name="body.l" parent="body">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="body.m" parent="body">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="body.s" parent="body">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--body end-->
+
+    <!--caption start-->
+    <style name="caption" parent="android:TextAppearance">
+        <item name="android:textColor">@color/black_72</item>
+        <item name="android:fontFamily">@font/ebrima</item>
+    </style>
+
+    <style name="caption.s" parent="caption">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="caption.m" parent="caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">@font/ebrima_bold</item>
+    </style>
+    <!--caption end-->
 
 </resources>
